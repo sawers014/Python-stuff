@@ -20,6 +20,6 @@ input_area = driver.find_element(By.ID, "input")
 input_area.click()
 for word in total_words: #read current word
     #put the input
-    input_area.send_keys(word.text)
-    input_area.send_keys(Keys.SPACE)
+    input_area.send_keys(word.text + " ")
+
 
