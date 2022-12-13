@@ -1,4 +1,4 @@
-```python
+
 from cmath import sqrt
 from hashlib import shake_128
 import math
@@ -46,4 +46,4 @@ if delta<0:
     print("No solution, parabola doesn't touch the X axis")
 else: 
     deltaPos(a, b, delta)
- ```
+
